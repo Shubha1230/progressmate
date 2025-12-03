@@ -1,6 +1,6 @@
 streamlit
 pandas
 openpyxl
-pyrebase4
+git+https://github.com/thisbejim/Pyrebase.git
 reportlab
 pillow
