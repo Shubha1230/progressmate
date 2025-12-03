@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 from io import BytesIO
-import pyrebase4 as pyrebase
+import pyrebase
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
@@ -272,4 +272,5 @@ if not df.empty:
 
     pdf_bytes = export_pdf_bytes(df.drop(columns=["FKey"], errors="ignore"))
     st.download_button("⬇ Export PDF", pdf_bytes, "progressmate.pdf", mime="application/pdf")
+
 
