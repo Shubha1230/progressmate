@@ -4,3 +4,4 @@ openpyxl
 reportlab
 pillow
 git+https://github.com/nhorvath/Pyrebase.git
+REQ
